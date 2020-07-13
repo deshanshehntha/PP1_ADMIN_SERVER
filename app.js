@@ -7,9 +7,9 @@ process.argv.forEach(function (val, index, array) {
     if(index === 2) {
         port = process.env.PORT;
     } else if(index === 3) {
-        nodeType = val
+        nodeType = 1
     } else if(index === 4 ) {
-        global.globalString = val
+        global.globalString = "A1";
     }
 });
 
